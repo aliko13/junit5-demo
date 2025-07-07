@@ -27,14 +27,15 @@ It includes examples of:
 
 ## 🛠 Project Structure
 
-junit5-demo/
--> src/
- -> main/java/com/example/model/ → domain classes (Student, Book, Order)
- -> main/java/com/example/service/ → service classes (business logic)
- -> test/java/com/example/test/ → JUnit 5 test classes
--> pom.xml → Maven config file
--> .gitignore → Ignore unnecessary files
--> README.md → Project documentation
+| Path                                 | Description                                |
+| ------------------------------------ | ------------------------------------------ |
+| `src/main/java/com/example/model/`   | Domain classes: `Student`, `Book`, `Order` |
+| `src/main/java/com/example/service/` | Service logic for each domain              |
+| `src/test/java/com/example/test/`    | JUnit 5 test classes                       |
+| `pom.xml`                            | Maven project configuration                |
+| `.gitignore`                         | Files and folders to ignore in Git         |
+| `README.md`                          | Project documentation                      |
+
 ---
 
 ## 🚀 Getting Started
